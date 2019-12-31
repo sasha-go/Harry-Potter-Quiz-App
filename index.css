@@ -140,7 +140,6 @@ label {
 
 
 /* Box sizing */
-
 * {
     box-sizing: border-box;
   }
@@ -166,6 +165,7 @@ label {
 
   }
 
+  /* Media queries from responsiveness */
   @media screen and (min-width: 640px) {
     .col {
       width: 100%;
@@ -174,7 +174,7 @@ label {
   }
 
 
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 640px) {
     .col {
       width: 100%;
 
