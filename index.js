@@ -41,7 +41,7 @@ function renderAQuestion() {
       <fieldset>
         <div class="row question">
           <div class="col">
-            <legend> ${question.question}</legend>
+            <h2> ${question.question}</h2>
           </div>
         </div>
 
@@ -119,7 +119,7 @@ function handleSelectOption() {
       $(`${id}`).addClass("right-answer");
     }
     else {
-      $(`${id}`).append(`WRONG!<br/>`);
+    $(`${id}`).append(`WRONG! The correct answer is ${currentQues.answer}<br/>`);
       $(`${id}`).addClass("wrong-answer");
     }
 
